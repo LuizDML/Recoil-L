@@ -7,10 +7,13 @@ public class MainMenuManager : MonoBehaviour
 {
     [SerializeField]
     private string LevelInicial;
+    [SerializeField]
+    private string TransitionType;
 
     public void Jogar()
     {
-        SceneManager.LoadScene(LevelInicial);
+        LevelManager.Instance.LoadScene(LevelInicial, TransitionType);
+        //SceneManager.LoadScene(LevelInicial);
 
     }
 

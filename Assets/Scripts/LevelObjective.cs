@@ -4,8 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelObjective : Collectable {
+
+    [SerializeField]
+    private string ProximoLevel;
+
     protected override void CollectableEffect() {
         GameController.Checkpoint = Vector2.zero;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        LevelManager.Instance.LoadScene(ProximoLevel, "CrossFade");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -9,6 +9,13 @@ public class AutoskipVideo : MonoBehaviour {
 
     bool played = false;
 
+    //[SerializeField]
+    //private string ProximoLevel;
+    //[SerializeField]
+    //private string TransitionType;
+
+    //bool carregar = false;
+
     // Start is called before the first frame update
     void Start() {
         player = this.GetComponent<VideoPlayer>();
@@ -20,5 +27,13 @@ public class AutoskipVideo : MonoBehaviour {
 
         if (played && player != null && (long) player.frameCount - 10 <= player.frame)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //if (carregar == false)
+            //{
+                //LevelManager.Instance.LoadScene(ProximoLevel, TransitionType);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                //carregar = true;
+                //GameObject.Find("Canvas").GetComponent<Canvas>().worldCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+
+            //}
     }
 }
