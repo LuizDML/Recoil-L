@@ -7,15 +7,29 @@ public abstract class Collectable : MonoBehaviour {
 
     protected virtual void OnTriggerEnter2D (Collider2D collision) {
         if (collision.CompareTag ("Player")) {
-
             CollectableEffect ();
-
+            
             if (snd != null)
                 AudioControl.Singleton.PlaySound (snd);
 
-            this.gameObject.SetActive(false);
+            // Verifica se o item é um "LvlCheckCat" antes de pausar
+            if (gameObject.CompareTag("LvlCheckCat")) {
+                StartCoroutine(EsperaUmTico());
+            } else {
+                // Se não for "LvlCheckCat", apenas desativa o objeto imediatamente
+                gameObject.SetActive(false);
+            }
+
         }
     }
 
     protected abstract void CollectableEffect ();
+
+    // Método corrigido
+    protected IEnumerator EsperaUmTico() {
+        yield return new WaitForSeconds(1.6f);
+        this.gameObject.SetActive(false);
+    }
+
+
 }

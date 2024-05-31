@@ -14,4 +14,5 @@ public class LevelObjective : Collectable {
         LevelManager.Instance.LoadScene(ProximoLevel, "CrossFade");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
 }

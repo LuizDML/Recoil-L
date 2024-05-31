@@ -9,4 +9,5 @@ public class WeaponSwitcher : Collectable {
     protected override void CollectableEffect() {
         GameController.Singleton?.mainCharacter.EquipWeapon(GameController.Singleton?.armory.weaponPrefabs[weaponId]);
     }
+
 }

@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: fc63b17d9d7e7f544895a280e0fa26d7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: CheckConfirm_Frame_0
+    originalName: 
+    pivot: {x: 0.5227273, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 178
+      width: 44
+      height: 50
+    spriteID: 09e96bae4ffa0d14b93e542dc0930f14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 178}
+  - name: CheckConfirm_Frame_1
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 4
+      width: 45
+      height: 50
+    spriteID: e58b4466174e44246a9574844532d379
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 4}
+  - name: CheckConfirm_Frame_2
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 62
+      width: 45
+      height: 50
+    spriteID: e448b217a69e6ae4b9c5b74ad05edd98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 62}
+  - name: CheckConfirm_Frame_3
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 120
+      width: 45
+      height: 50
+    spriteID: 3084b1ba343e80b4e9df86440298ac70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 120}
+  - name: CheckConfirm_Frame_4
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 46
+      height: 50
+    spriteID: db6155826dcd782499fe5d8614c6c1a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: CheckConfirm_Frame_5
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 46
+      height: 50
+    spriteID: 4ece87b9ecab77045a4aa6f1561cc1d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: CheckConfirm_Frame_6
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 178
+      width: 45
+      height: 50
+    spriteID: c057b74b68ea5c54d9ac2236d72cab42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 178}
+  - name: CheckConfirm_Frame_7
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 4
+      width: 45
+      height: 50
+    spriteID: a0603d99b3be8a646bcf299cdc0bbb06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 4}
+  - name: CheckConfirm_Frame_8
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 46
+      height: 50
+    spriteID: 905fdf4c56dbee04b8381027cbaa545c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: CheckConfirm_Frame_9
+    originalName: 
+    pivot: {x: 0.54347825, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 178
+      width: 46
+      height: 50
+    spriteID: b6521b47574c5284a834dcece4ed6860
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 178}
+  - name: CheckConfirm_Frame_10
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 62
+      width: 45
+      height: 50
+    spriteID: 6c01f76bee3ca3d4c8f335bf2875ccab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 62}
+  - name: CheckConfirm_Frame_11
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 120
+      width: 45
+      height: 50
+    spriteID: 5ff33f31e57a92746bb433f5a6087d76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 120}
+  - name: CheckConfirm_Frame_12
+    originalName: 
+    pivot: {x: 0.5227273, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 44
+      height: 50
+    spriteID: b541438d12d76a54a897f02819a472f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1435347870
+    name: CheckConfirm
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: CheckConfirm_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 9
+        y: 1
+        width: 44
+        height: 50
+      spriteId: 09e96bae4ffa0d14b93e542dc0930f14
+    - name: CheckConfirm_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: e58b4466174e44246a9574844532d379
+    - name: CheckConfirm_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: e448b217a69e6ae4b9c5b74ad05edd98
+    - name: CheckConfirm_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: 3084b1ba343e80b4e9df86440298ac70
+    - name: CheckConfirm_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 1
+        width: 46
+        height: 50
+      spriteId: db6155826dcd782499fe5d8614c6c1a7
+    - name: CheckConfirm_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 1
+        width: 46
+        height: 50
+      spriteId: 4ece87b9ecab77045a4aa6f1561cc1d7
+    - name: CheckConfirm_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: c057b74b68ea5c54d9ac2236d72cab42
+    - name: CheckConfirm_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: a0603d99b3be8a646bcf299cdc0bbb06
+    - name: CheckConfirm_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 7
+        y: 1
+        width: 46
+        height: 50
+      spriteId: 905fdf4c56dbee04b8381027cbaa545c
+    - name: CheckConfirm_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 7
+        y: 1
+        width: 46
+        height: 50
+      spriteId: b6521b47574c5284a834dcece4ed6860
+    - name: CheckConfirm_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: 6c01f76bee3ca3d4c8f335bf2875ccab
+    - name: CheckConfirm_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 8
+        y: 1
+        width: 45
+        height: 50
+      spriteId: 5ff33f31e57a92746bb433f5a6087d76
+    - name: CheckConfirm_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 9
+        y: 1
+        width: 44
+        height: 50
+      spriteId: b541438d12d76a54a897f02819a472f0
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
